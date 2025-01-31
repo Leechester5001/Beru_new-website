@@ -18,7 +18,8 @@
         <link href="css/main.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/floating-button.css" rel="stylesheet">
-  <meta name="author" content="Holger Koenemann">
+        <link href="css/popup-onload.css" rel="stylesheet">
+  <meta name="author" content="">
   <meta name="generator" content="Eleventy v2.0.0">
   <meta name="HandheldFriendly" content="true">
   <title>Beru Early Years</title>
@@ -69,7 +70,7 @@
 
   <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
     <div class="container">
-      <a class="navbar-brand pe-4 fs-4 " href="/">
+      <a class="navbar-brand pe-4 fs-4 " href="index.html">
         <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-layers-half"
           viewbox="0 0 16 16">
           <path
@@ -128,9 +129,10 @@
             <a class="nav-link" href="#testimonials">
               Testimonials
             </a>
-          </li>
- -->
+          </li>-->
+ 
         </ul>
+        
         <!--popup start-->
        <!--  <script>
           document.getElementById("openPopup").addEventListener("click", function() {
@@ -145,12 +147,15 @@
         <!-- <a  onmouseleave="if (!window.__cfRLUnblockHandlers) return false; " onmouseenter="if (!window.__cfRLUnblockHandlers) return false; this.style.borderColor=&#39;#ffffff&#39;; this.style.backgroundColor=&#39;#ffffff&#39; this.style.color=&#39;#bf2c00&#39;" style="border-color:#2c2c2c; color:#2d2d2d;" id="openPopup" class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-square vc_btn3-style-outline-custom btnPopup" onclick = "popup('', 'Popup', '600px', '500px', 'center', 'front', 'scrollbars=yes,resizable=no,menubar=no,toolbar=no,status=no,fullscreen=no')" title="" >Book a Campus Tour </a> -->
 
 
-        <div class="col-auto">
+        <!-- <div class="col-auto">
           <a href="#" id="open-popup" class="btn btn-dark py-0 px-1 popup-trigger">Contact Us</a>
+        </div> -->
         </div>
+        </div>
+      </nav>
         <!-- <a href="https://forms.gle/xAbsP21DtHdoJ5JNA" id="open-popup" class="info popup-trigger" title="info">Popup</a> -->
 
-<div class="popup" role="alert">
+<!-- <div class="popup" role="alert">
   <div class="popup-container scrollable-popup">
     <a href="#0" class="popup-close img-replace">Close</a>
     <div class="container small border-top">
@@ -177,12 +182,6 @@
             <li class="nav-item">
               <a class="nav-link link-secondary ps-0" href="https://www.facebook.com/profile.php?id=100092569322259&mibextid=ZbWKwL" target="_blank">Facebook</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" href="#">Sed odio cras</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" href="#">Commodo tortor ac</a>
-            </li> -->
           </ul>
         </div>
         <div class="col-12 col-lg-6 col-xl-3 border-end p-5 ">
@@ -209,8 +208,7 @@
     
   </div> 
 </div> 
-<!--popup end-->
-
+ --><!--popup end-->
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- <a href="" data-splitbee-event="Click Download" aria-label=""
@@ -224,8 +222,9 @@
           </svg>
         </a> -->
 
-      </div>
-    </div>
+      <!-- </div>
+    </div> -->
+  
     <!--Floating button start-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <div class="floating-container">
@@ -248,7 +247,29 @@
   </div>
 </div>
 <!--Floating button end-->
-  </nav>
+  <!--website on load popup-->
+<script src="js/popup-onload.js"></script>
+
+
+<!-- <div class="modal" id="modalpopup">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title"></h4>
+          <button type="button" class="popup-close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body ">
+         <img src="img/webp/popup.webp" height="300px" width="300px" >
+        </div>
+        <div class="modal-footer ">
+          <button type="button" class="btn btn-sm  btn-dark popup-close" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div> -->
+<!--website onload popup end-->
+
 
   <main>
     <!--original Hero Section-->
@@ -264,7 +285,8 @@
           <div class="col-lg-8 py-vh-6 position-relative" data-aos="fade-right">
             <h1 class="display-1 fw-bold mt-5">Reggio Emilia Inspired </h1>
             <p class="lead">Early Years School 
-              <br>in Jayanagar  </p>
+               <br>in
+               Jayanagar  </p>
             <a href="#programmes" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5">Learn More</a>
           </div>
 
@@ -424,9 +446,9 @@
          <video autoplay="autoplay" muted="muted" playsinline  loop="loop" width="100%" height="100%" class="inlinevideo" id="myVideo">
               <source src="img/Raya Website Autoplay.mp4" type="video/mp4">
               </video>
-              <p data-aos="fade-left" data-aos-delay="200">
+              <h6 data-aos="fade-left" data-aos-delay="200">
               Beru is a progressive reggio inspired early years school in Bengaluru. At Beru, we strive to nurture a curious, capable and resilient child filled with wonder and knowledge. We strongly believe in providing a supportive and enriching environment to connect parents, educators and the community as a whole.
-            </p>
+              </h6>
              <!--  <button class="full_video_btn" style="">See full video</button> -->
       </div>
       <!-- Modal -->
@@ -472,8 +494,8 @@
 <ul class="cards">
   
   <li>
-    <a href="" class="card">
-      <img src="img/11.jpg" class="card__image" alt="" />
+    <div class="card">
+      <img src="img/webp/11.webp" class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
@@ -485,11 +507,11 @@
         </div>
         <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
       </div>
-    </a>      
+    </div>      
   </li>
   <li>
-    <a href="" class="card">
-      <img src="img/13.jpg" class="card__image" alt="" />
+    <div class="card">
+      <img src="img/webp/15.webp" class="card__image" alt="" />
       <div class="card__overlay">        
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
@@ -501,10 +523,10 @@
         </div>
         <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
       </div>
-    </a>
+    </div>
   </li>
   <li>
-    <a href="" class="card">
+    <div class="card">
       <img src="img/11.jpg" class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
@@ -518,11 +540,11 @@
         </div>
         <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
       </div>
-    </a>
+    </div>
   </li>
   <li>
-    <a href="" class="card">
-      <img src="img/13.jpg" class="card__image" alt="" />
+    <div class="card">
+      <img src="img/webp/mud.webp" class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
@@ -534,11 +556,11 @@
         </div>
         <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
       </div>
-    </a>
+    </div>
   </li>  
   <li>
-    <a href="" class="card">
-      <img src="img/11.jpg" class="card__image" alt="" />
+    <div class="card">
+      <img src="img/webp/ph.webp" class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
@@ -550,7 +572,7 @@
         </div>
         <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
       </div>
-    </a>
+    </div>
   </li>   
 </ul>
 </section>
@@ -646,18 +668,18 @@
             <div class="row gx-5 d-flex">
               <div class="col-md-11">
                 <div class="shadow ratio ratio-16x9 rounded bg-cover bp-center align-self-end" data-aos="fade-right"
-                  style="background-image: url(img//gallery/12.jpg);--bs-aspect-ratio: 50%;">
+                  style="background-image: url(img/webp/12.webp);--bs-aspect-ratio: 50%;">
                 </div>
               </div>
               <div class="col-md-5 offset-md-1">
                 <div class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end" data-aos="fade-up"
-                  style="background-image: url(img/gallery/1.jpg);">
+                  style="background-image: url(img/webp/1.webp);">
                 </div>
               </div>
               <div class="col-md-6">
                 <h3></h3>
                 <div class="col-12 shadow ratio rounded bg-cover mt-5 bp-center" data-aos="fade-left"
-                  style="background-image: url(img/gallery/9.jpg);--bs-aspect-ratio: 150%;">
+                  style="background-image: url(img/webp/9.webp);--bs-aspect-ratio: 150%;">
                 </div>
               </div>
             </div>
@@ -722,43 +744,43 @@
             </div>
             <div class="row vw-100 px-0 py-vh-2 d-flex align-items-center scrollx">
               <div class="col-md-4 " data-aos="fade-up">
-                <img src="img/14.jpg" class="rounded shadow img-fluid" alt="nice gallery image">
+                <img src="img/webp/8.webp" class="rounded shadow img-fluid" alt="nice gallery image">
                   <!-- width="512" height="341" -->
               </div>
 
               <div class="col-md-4 mt-5" data-aos="fade-up" data-aos-delay="200">
-                <img src="img/12.jpg" class="img-fluid rounded shadow" alt="nice gallery image" ><!-- width="1164"
+                <img src="img/webp/12.webp" class="img-fluid rounded shadow" alt="nice gallery image" ><!-- width="1164"
                   height="776" -->
               </div>
               
               <div class="col-md-4 mt-5" data-aos="fade-up" data-aos-delay="400">
-                <img src="img/gallery/3.jpg" class="img-fluid rounded shadow" alt="nice gallery image" width="844"
+                <img src="img/webp/2.webp" class="img-fluid rounded shadow" alt="nice gallery image" width="844"
                   height="1054">
               </div>
 
               <div class="col-md-4 mt-5" data-aos="fade-up" data-aos-delay="600">
-                <img src="img/1.jpg" class="img-fluid rounded shadow" alt="nice gallery image"
+                <img src="img/webp/3.webp" class="img-fluid rounded shadow" alt="nice gallery image"
                   width="844" height="562">
               </div>
 
               <div class="col-md-4 mt-5" data-aos="fade-up" data-aos-delay="800">
-                <img src="img/gallery/10.jpg" class="rounded shadow img-fluid" alt="nice gallery image" width="512"
+                <img src="img/webp/4.webp" class="rounded shadow img-fluid" alt="nice gallery image" width="512"
                   height="341">
               </div>
               <div class="col-md-4 mt-5" data-aos="fade-up" data-aos-delay="800">
-                <img src="img/2.jpg" class="rounded shadow img-fluid" alt="nice gallery image" width="512"
+                <img src="img/webp/6.webp" class="rounded shadow img-fluid" alt="nice gallery image" width="512"
                   height="341">
               </div>
               <div class="col-md-4 mt-5" data-aos="fade-up" data-aos-delay="800">
-                <img src="img/gallery/5.jpg" class="rounded shadow img-fluid" alt="nice gallery image" width="512"
+                <img src="img/webp/7.webp" class="rounded shadow img-fluid" alt="nice gallery image" width="512"
                   height="341">
               </div>
               <div class="col-md-4 mt-5" data-aos="fade-up" data-aos-delay="800">
-                <img src="img/4.jpg" class="rounded shadow img-fluid" alt="nice gallery image" width="500"
+                <img src="img/webp/8.webp" class="rounded shadow img-fluid" alt="nice gallery image" width="500"
                   height="300">
               </div>
               <div class="col-md-4 mt-5" data-aos="fade-up" data-aos-delay="800">
-                <img src="img/gallery/6.jpg" class="rounded shadow img-fluid" alt="nice gallery image" width="512"
+                <img src="img/webp/mud.webp" class="rounded shadow img-fluid" alt="nice gallery image" width="512"
                   height="341">
               </div>
             </div>
