@@ -1,0 +1,273 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="description" content="A growing collection of ready to use components for the CSS framework Bootstrap 5">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon.png">
+  <meta name="author" content="Holger Koenemann">
+  <meta name="generator" content="Eleventy v2.0.0">
+  <meta name="HandheldFriendly" content="true">
+  <title>Plain Content Sample Page</title>
+  <link rel="stylesheet" href="css/theme.min.css">
+
+  <style>
+    /* inter-300 - latin */
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-300.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-500.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-700.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+  </style>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light" tabindex="0">
+    <div class="container">
+      <a class="navbar-brand pe-4 fs-4" href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-layers-half"
+          viewbox="0 0 16 16">
+          <path
+            d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z" />
+        </svg>
+        <span class="ms-1 fw-bolder">Stride</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#services" aria-label="Brings you to the frontpage">
+              Services
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutus">
+              About us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#numbers">
+              Numbers
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">
+              Gallery
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#workwithus">
+              Work with us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">
+              Testimonials
+            </a>
+          </li>
+
+        </ul>
+        <a href="" data-splitbee-event="Click Download" aria-label="Download this template"
+          class="link-dark pb-1 link-fancy me-2">
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-download ms-1" viewBox="0 0 16 16">
+            <path
+              d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+          </svg>
+        </a>
+
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="py-vh-5 w-100 overflow-hidden" id="services">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-lg-10 col-xl-8">
+            <h2 class="display-1 fw-bold border-bottom border-dark pb-4">**Legal Disclaimer**</h2>
+            <p class="lead py-vh-2">This website (the "Site") and all its contents are owned by Beru Early Years. All images, information, and graphics featured on this Site have been created by individuals affiliated with the Academy.
+
+              Individuals who intentionally reproduce, copy, or otherwise manipulate this Site may face legal action from Beru Early Years. This Site serves as an additional platform for disseminating information about the Academy. All images of students, faculty, and staff are used with the consent of the individuals depicted and their guardians. Unauthorized use of these images, without explicit written permission from the Academy and the individuals represented, is strictly prohibited.
+              
+              While efforts are made to ensure the accuracy of the content here, Beru Early Years disclaims any responsibility for any loss or damage resulting from inaccuracies, omissions, or misinterpretations. Although this Site contains links to other websites, Beru Early Years does not have control over the content provided by these external sites. The inclusion of such links does not signify endorsement.
+              
+              No warranties of any kind, including but not limited to the warranties of non-infringement of third-party rights, ownership, merchantability, fitness for a particular purpose, or freedom from computer viruses, are provided concerning the content of this website or its hyperlinks to other internet resources.
+              
+              
+
+            </p>
+          </div>
+          <div class="col-12 col-lg-10 col-xl-8">
+            <h2 class="display-1 fw-bold border-bottom border-dark pb-4">**You agree not to:**</h2>
+            <p class="lead py-vh-2">- Disrupt or attempt to disrupt the operation of the Site in any manner.<br>
+
+              - Intrude or attempt to intrude upon the Site in any way.<br>
+              
+              - Post any obscene, defamatory, or disruptive materials on the Site.<br>
+              
+              - Obscure any materials, including this notice, that are already posted on the Site.<br>
+              
+              - Use the Site or any of its content to defame, intimidate, annoy, or otherwise create a nuisance or infringe on the rights of any individual. <br>
+              <br><br>
+              
+              Beru Early Years grants permission to view and download the information ("Materials") on this Site solely for personal, non-commercial purposes. This permission does not transfer ownership of the Materials and copies thereof and is subject to the following restrictions:<br>
+              
+              - You must retain all copyright, trademark, and other proprietary notices contained in the Materials on any copies downloaded.<br>
+              
+              - You may not modify the Materials in any way, nor reproduce, display, perform, distribute, or otherwise use them for any public or commercial purpose.<br>
+              
+              - You may not transfer the Materials to any other person unless you provide them notice of, and they agree to comply with, the obligations imposed by these terms and conditions of use. You agree to follow all additional restrictions displayed on the Site, which may be updated periodically.<br>
+
+            </p>
+          </div>
+          <div class="col-12 col-lg-10 col-xl-8">
+            <h2 class="display-1 fw-bold border-bottom border-dark pb-4">**Copyright and Trademark Notices**</h2>
+            <p class="lead py-vh-2">This Site, including all Materials, is protected by international copyright laws and treaties. You agree to adhere to all copyright laws while using this Site and to prevent any unauthorized reproduction of the Materials. Except as explicitly stated herein, Beru Early Years does not grant you any express or implied rights under any patents, trademarks, copyrights, or trade secret information.
+
+              Please proceed only if you accept all the conditions outlined above, of your own free will and consent.
+              <br><br>
+              
+              All contents of the Beru Early Years website are © 2025 Beru Early Years and/or its licensors. All rights reserved.
+              
+              
+
+            </p>
+          </div>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container small border-top">
+      <div class="row py-5 d-flex justify-content-between">
+
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+
+          <address class="text-secondary mt-3">
+            <img src="img/Logo.png" width="40px" height="40px">     
+            <strong>Beru Early Years</strong><br>
+            #705, 47th Cross, 5th Block,<br>
+            Jayanagar, Bengaluru - 560041.<br>
+            <a href="tel:6361915097"><abbr title="Phone">P:</abbr>
+            +91 6361915097</a><br>
+            Email Id:<a href="mailto:info@beruschool.org"> info@beruschool.org</a>
+          </address>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3">Social links</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://instagram.com/beruearlyyears?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" href="https://www.facebook.com/profile.php?id=100092569322259&mibextid=ZbWKwL" target="_blank">Facebook</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" href="#">Sed odio cras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" href="#">Commodo tortor ac</a>
+            </li> -->
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3">Location</h3>
+          <ul class="nav flex-column">
+           <a href="https://maps.app.goo.gl/1VVn7oKiHAgjoPk46" target="_blank"><img src ="img/map.png" height="160px" width="200px"></a>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 p-5">
+          <h3 class="h6 mb-3">Other Links</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://docs.google.com/forms/d/e/1FAIpQLSdaOHa6IN0YzpywO9x61Z5kMyuzBH-y7A7-GeajBg3G9dluWw/viewform?usp=sf_link " target="_blank">Careers</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="Privacy Policy.html">Privacy Policy</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="legal_disclaimer.html">Legal Disclaimer
+                </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center py-3 small"> All contents of the Beru Early Years website are © 2025 Beru Early Years and/or its licensors. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // values from 0 to 3000, with step 50ms
+    });
+  </script>
+
+  <script>
+    let scrollpos = window.scrollY;
+    const header = document.querySelector(".navbar");
+    const header_height = header.offsetHeight;
+
+    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm");
+    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm");
+
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
+
+      if (scrollpos >= header_height) { add_class_on_scroll(); }
+      else { remove_class_on_scroll(); }
+
+      console.log(scrollpos);
+    })
+  </script>
+
+</body>
+
+</html>
